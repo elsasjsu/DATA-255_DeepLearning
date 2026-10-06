@@ -1,0 +1,7 @@
+Family,Budget,h,width,grid,Params
+KAN-ODE,Small,4,"[[5, 0], [6, 0], [4, 0]]",3.0,2577
+MLP-ODE,Small,9,10,,2578
+KAN-ODE,Medium,6,"[[7, 0], [9, 0], [6, 0]]",3.0,3465
+MLP-ODE,Medium,4,34,,3463
+KAN-ODE,Large,8,"[[9, 0], [12, 0], [8, 0]]",3.0,4641
+MLP-ODE,Large,10,38,,4653

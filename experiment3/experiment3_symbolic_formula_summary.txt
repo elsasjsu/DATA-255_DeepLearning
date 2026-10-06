@@ -1,0 +1,11 @@
+
+Experiment 3 symbolic fitting was completed for the mildly pruned KAN-ODE model.
+
+The symbolic fitting produced eight explicit latent-dynamics equations:
+dz_1/dt through dz_8/dt.
+
+The extracted expressions were highly complex:
+- Operation counts ranged from 436 to 525.
+- Expression lengths ranged from 5,472 to 6,571 characters.
+
+Because the equations are long and nested, the symbolic result is useful as evidence that KAN symbolic extraction is possible, but it is not compact enough for direct clinical interpretation.
