@@ -1,0 +1,70 @@
+{
+  "config": {
+    "data": "data",
+    "out": "outputs",
+    "epochs": 5,
+    "batch_size": 128,
+    "max_normal": 12000,
+    "max_anomaly": 4000,
+    "normal_val": 1500,
+    "bottleneck": 8,
+    "latent_dim": 32,
+    "percentile": 95,
+    "seed": 42,
+    "cpu": true,
+    "device": "cpu",
+    "train_count": 10500,
+    "normal_val_count": 1500,
+    "anomaly_eval_count": 500
+  },
+  "conv": {
+    "history": [
+      0.1474866064105715,
+      0.03096598138979503,
+      0.01681451912791956,
+      0.012595265425032094,
+      0.010527798502572945
+    ],
+    "threshold": 0.018808331340551376,
+    "precision": 0.5,
+    "recall": 0.09,
+    "roc_auc": 0.67394,
+    "confusion_matrix": [
+      [
+        955,
+        45
+      ],
+      [
+        455,
+        45
+      ]
+    ],
+    "normal_error_mean": 0.010119868442416191,
+    "anomaly_error_mean": 0.012218664400279522
+  },
+  "dense": {
+    "history": [
+      0.08005663970538549,
+      0.039093888935588655,
+      0.030438295227431116,
+      0.025655096332232157,
+      0.02325183159396762
+    ],
+    "threshold": 0.04705661162734032,
+    "precision": 0.7513227513227513,
+    "recall": 0.284,
+    "roc_auc": 0.770824,
+    "confusion_matrix": [
+      [
+        953,
+        47
+      ],
+      [
+        358,
+        142
+      ]
+    ],
+    "normal_error_mean": 0.022563038393855095,
+    "anomaly_error_mean": 0.039954256266355515
+  }
+}
